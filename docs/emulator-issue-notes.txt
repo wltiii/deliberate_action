@@ -1,0 +1,38 @@
+INFO | Android emulator version 31.3.13.0 (build_id 9189900) (CL:N/A)
+emulator: INFO: Found systemPath /home/worldwidewilly/Android/Sdk/system-images/android-30/google_apis_playstore/x86/
+emulator: INFO: Found systemPath /home/worldwidewilly/Android/Sdk/system-images/android-30/google_apis_playstore/x86/
+WARNING | unexpected system image feature string, emulator might not function correctly, please try updating the
+emulator.
+ERROR | Running multiple emulators with the same AVD
+ERROR | is an experimental feature.
+ERROR | Please use -read-only flag to enable this feature.
+INFO | Duplicate loglines will be removed, if you wish to see each indiviudal line launch with the -log-nofilter flag.
+
+/home/worldwidewilly/.android/avd
+
+Tools > Android Device File Explorer download location (ij): /home/worldwidewilly/.cache/JetBrains/IdeaIC2022.2/device-explorer
+Tools > Device File Explorer download location (ij): /home/worldwidewilly/.cache/Google/AndroidStudio2021.3/device-explorer
+
+in AS device manager i see both the 4 & 5 ( i do in ij, too). if i try to delete 4, it states it is
+running.  though, i see no running emulators. in IJ, it states there a no running emulators.
+
+Starting AS
+Project My Application is using the following JDK location when running Gradle:
+					/home/worldwidewilly/android-studio/jre
+					Using different JDK locations on different processes might cause Gradle to
+					spawn multiple daemons, for example, by executing Gradle tasks from a terminal
+					while using Android Studio.
+
+Booting AS
+11/10/22
+3:01 PM	Gradle sync started
+
+3:02 PM	Gradle sync finished in 13 s 626 ms
+
+3:03 PM	Adb connection Error:EOF
+
+3:03 PM	Cannot reach ADB server, attempting to reconnect.
+
+3:03 PM	* daemon not running; starting now at tcp:5037
+
+3:03 PM	* daemon started successfully
